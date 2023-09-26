@@ -7,15 +7,15 @@ function calcularSumaImpuestos(monto){
 }
 
 function sumarImpuestos(){
-    let montoStr = document.getElementById("monto").value;
+    let montoUsuario = document.getElementById("monto").value;
 
-    let monto = parseFloat(montoStr);
+    let monto = parseFloat(montoUsuario);
 
     if (!isNaN(monto)) {
         let resultado = calcularSumaImpuestos(monto)
 
         document.getElementById("resultado").textContent = resultado;
     } else { 
-        alert("Por favor, ingresa un monto válido")
+        alert("Por favor, ingresa un monto válido.")
     }
 }
