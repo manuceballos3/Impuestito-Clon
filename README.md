@@ -1,2 +1,4 @@
-# Impuestito-Clon
- Clon básico de impuestito
+# Arancelito!
+Clon básico de impuestito. 
+
+Primer priyecto personal.
