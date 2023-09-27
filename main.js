@@ -19,3 +19,8 @@ function sumarImpuestos(){
         alert("Por favor, ingresa un monto válido.")
     }
 }
+
+document.getElementById("reiniciar").addEventListener("click", function() {
+    document.getElementById("monto").value = "";
+    document.getElementById("resultado").textContent = "";
+});
