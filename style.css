@@ -85,7 +85,7 @@ input {
 
 }
 
-button {
+#calcular {
     font-family: 'Roboto Mono', monospace;
     color: black;
     position: fixed;
@@ -94,16 +94,31 @@ button {
     text-transform: uppercase;
   }
 
-  button:hover {
+  #calcular:hover {
     background: #292929;
     color: white;
     border-radius: 5px;
+  }
+
+  #reiniciar {
+        font-family: 'Roboto Mono', monospace;
+        color: black;
+        position: fixed;
+        top: 70%;
+        left: 47.2%;
+        text-transform: uppercase;
+      }
+    
+      #reiniciar:hover {
+        background: #292929;
+        color: white;
+        border-radius: 5px;
   }
 
   p {
     font-family: 'Roboto Mono', monospace;
     color: white;
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 45%
   }
