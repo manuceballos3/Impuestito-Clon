@@ -1,0 +1,124 @@
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    text-align: center;
+}
+
+body {
+    background-color
+    :#292929;
+    }
+
+.links {
+    font-family: 'Roboto Mono', monospace;
+    position: fixed;
+    right: 120px;
+    top: 20px;
+}
+
+.link-github {
+    padding: 0 2.5rem;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+}
+
+img {
+    padding: 5px;
+    width: 50px;
+    transition: transform 250ms;
+}
+
+img:hover {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+
+.link-github:hover {
+    opacity: 0.8;
+}
+
+.titulo {
+    font-family: 'Roboto Mono', monospace;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    animation-name: titulo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes titulo {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+label {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 60.5%;
+    left: 50%;
+    width: 200px;
+    height: 100px;
+    padding: 150px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+input {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 100px;
+    height: 25px;
+    transform: translate(-50%, -50%);
+
+}
+
+#calcular {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    position: fixed;
+    top: 65%;
+    left: 47.4%;
+    text-transform: uppercase;
+  }
+
+  #calcular:hover {
+    background: #292929;
+    color: white;
+    border-radius: 5px;
+  }
+
+  #reiniciar {
+        font-family: 'Roboto Mono', monospace;
+        color: black;
+        position: fixed;
+        top: 70%;
+        left: 47.2%;
+        text-transform: uppercase;
+      }
+    
+      #reiniciar:hover {
+        background: #292929;
+        color: white;
+        border-radius: 5px;
+  }
+
+  p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 45%
+  }
