@@ -1,6 +1,6 @@
 //Función simple que devuelve un monto, ingresado por el usuario, sumado 75%
 
-const impuestos = 0.75
+const impuestos = 1
 
 function calcularSumaImpuestos(monto){
     return monto + (monto * impuestos);
