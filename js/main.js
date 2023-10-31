@@ -1,4 +1,4 @@
-//Función simple que devuelve un monto, ingresado por el usuario, sumado 75%
+//Función simple que devuelve un monto, ingresado por el usuario, multiplicado por 2.
 
 const impuestos = 1
 
